@@ -16,7 +16,7 @@ import {
   usePrepareContractWrite,
 } from 'wagmi';
 import { sepolia } from 'wagmi/chains';
-import whiteListAbi from '../lib/abi/whiteList.json';
+import whiteListAbi from '../lib/abi/whitelist.json';
 import NoSSR from './NoSSR';
 
 const chains = [sepolia];
